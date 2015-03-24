@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_l4drgNF5EeSJ_9zeZEuxJQ" name="Model">
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_l4drgdF5EeSJ_9zeZEuxJQ">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Class" xmi:id="_M5eB4NF6EeSJ_9zeZEuxJQ" name="EnquirerGeneric">
+    <nestedClassifier xmi:type="uml:Class" xmi:id="_RmII0NF7EeSJ_9zeZEuxJQ" name="EnquirerGeneric"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_VE5VwNF7EeSJ_9zeZEuxJQ" name="EnquireAnimals">
+    <generalization xmi:type="uml:Generalization" xmi:id="_skGLINF7EeSJ_9zeZEuxJQ" general="_M5eB4NF6EeSJ_9zeZEuxJQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_iVawoNF7EeSJ_9zeZEuxJQ" name="EnquireMaze">
+    <generalization xmi:type="uml:Generalization" xmi:id="_rsBToNF7EeSJ_9zeZEuxJQ" general="_M5eB4NF6EeSJ_9zeZEuxJQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_Di-aUNF_EeSJ_9zeZEuxJQ" name="EnquireX">
+    <generalization xmi:type="uml:Generalization" xmi:id="_Di-aUdF_EeSJ_9zeZEuxJQ" general="_M5eB4NF6EeSJ_9zeZEuxJQ"/>
+    <generalization xmi:type="uml:Generalization" xmi:id="_IYDS4NF_EeSJ_9zeZEuxJQ" general="_M5eB4NF6EeSJ_9zeZEuxJQ"/>
+  </packagedElement>
+</uml:Model>
